@@ -1,0 +1,155 @@
+session_config:
+  session_expiration_time: 0
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- thankyou
+- how_are_you
+- builder_info
+- handle_insult
+- ask_language
+- phone
+- hours
+- batteries
+- stock
+- payment
+- age_identification
+- Unable to verify age
+- return
+- shipping
+- International_orders
+- cancel_my_order
+- order_status
+- general
+- order_related
+entities:
+- contact
+- language
+- time
+slots:
+  contact:
+    type: unfeaturized
+    auto_fill: false
+  rating_value:
+    type: unfeaturized
+    auto_fill: false
+  time:
+    type: unfeaturized
+    auto_fill: false
+responses:
+  utter_menu:
+  - buttons:
+    - payload: /general
+      title: General questions
+    - payload: /order_related
+      title: Order related questions
+    text: Please click the options if your question is related to this topics, if
+      not just type your question and press enter!
+  utter_greet:
+  - text: Hi! Welcome to the chat, I am here to help you:)
+  utter_goodbye:
+  - text: Bye, Have a nice day.
+  utter_affirm:
+  - text: OK
+  utter_deny:
+  - text: sorry, can you rephrase your question
+  utter_thankyou:
+  - text: Welcome! I am always here to help you:)
+  utter_howareyou:
+  - text: I am cool! I hope you are safe.
+  utter_builderinfo:
+  - text: I am a AI bot developed to help you.
+  utter_handleinsult:
+  - text: I am sorry, I think you are not happy with the chat. Iam learning to make
+      better conversations with users so next time you can expect a better experience!
+  utter_asklanguage:
+  - text: for now English is the only supported language maybe in future you can expect
+      multi-lingual supported
+  utter_phone:
+  - text: "Sorry, we do not offer phone support at this time, you can mail us or raise\
+      \ support tickets. \n for more info check this: https://elementvape.zendesk.com/hc/en-us/articles/360041046451-Do-you-offer-phone-support- "
+  utter_hours:
+  - text: " 9:00 AM - 5:00 PM PST, Monday - Saturday (excluding holidays). \n for\
+      \ more info check this: https://elementvape.zendesk.com/hc/en-us/articles/360039934472-What-are-your-hours-of-operation- "
+  utter_batteries:
+  - text: "Unfortunately, batteries are not included with products \n for more info\
+      \ check this: https://elementvape.zendesk.com/hc/en-us/articles/360040346871-Are-batteries-included-with-starter-kits-and-box-mods- "
+  utter_stock:
+  - text: "Unfortunately, we are unable to notify customers directly when a requested\
+      \ item is back in stock. \n for more info check this: https://elementvape.zendesk.com/hc/en-us/articles/360040425832-Can-I-be-notified-when-an-item-is-back-in-stock- "
+  utter_payment:
+  - text: "We support Credit cards, Debit cards, Prepaid/Gift cards  \n for more info\
+      \ check this: https://elementvape.zendesk.com/hc/en-us/articles/360040814111-What-payment-options-can-I-use-to-make-a-purchase- "
+  utter_ageidentification:
+  - text: "We request you to submit a clear, non-expired government-issued photo ID\
+      \ \n for more info check this: https://elementvape.zendesk.com/hc/en-us/articles/360040383752-What-forms-of-identification-can-be-used-to-verify-my-age- "
+  utter_unabletoverifyage:
+  - text: "Please send your valid government-issued ID through mail to ageverification@elementvape.com\
+      \ \n for more info check this: https://elementvape.zendesk.com/hc/en-us/articles/360040259591-I-am-unable-to-verify-my-age-at-the-time-of-checkout-How-do-I-proceed-with-placing-my-order- "
+  utter_return:
+  - text: "please allow up to 14 business days for us to process a return once we\
+      \ receive it back at our facility \n for more info check this: https://elementvape.zendesk.com/hc/en-us/articles/360040857652-How-long-will-it-take-to-process-a-return- "
+  utter_shipping:
+  - text: "Your order will  be delivered with in 2-4 business days after it is processed\
+      \ \n for more info check this: https://elementvape.zendesk.com/hc/en-us/articles/360039835952-I-just-placed-my-order-when-will-it-be-shipped- "
+  utter_internationalorders:
+  - text: "Yes! we process international orders \n for more info check this: https://elementvape.zendesk.com/hc/en-us/articles/360039837812-Do-you-ship-internationally- "
+  utter_cancelmyorder:
+  - text: "Once an order has been processed for shipment, the order is no longer able\
+      \ to be canceled/refunded. \n for more info check this: https://elementvape.zendesk.com/hc/en-us/articles/360039830392-Can-I-cancel-my-order- "
+  utter_orderstatus:
+  - text: your order is processed
+  utter_getreview:
+  - text: Please rate this chat (1-5)
+  utter_acknowledge:
+  - text: Thanks for your rating
+  utter_general:
+  - buttons:
+    - payload: /phone
+      title: Phone contact related questions
+    - payload: /ask_language
+      title: Language support related questions
+    - payload: /payment
+      title: Payment questions
+    text: Please click the options if your question is related to this topics, if
+      not just type your question and press enter!
+  utter_orderrelated:
+  - buttons:
+    - payload: /shipping
+      title: Shipping details
+    - payload: /cancel_my_order
+      title: Cancelling the order
+    - payload: /order_status
+      title: Check order status
+    text: Please click the options if your question is related to this topics, if
+      not just type your question and press enter!
+actions:
+- utter_greet
+- utter_menu
+- utter_thankyou
+- utter_goodbye
+- utter_affirm
+- utter_deny
+- utter_howareyou
+- utter_builderinfo
+- utter_handleinsult
+- utter_asklanguage
+- utter_phone
+- utter_hours
+- utter_batteries
+- utter_stock
+- utter_payment
+- utter_ageidentification
+- utter_unabletoverifyage
+- utter_return
+- utter_shipping
+- utter_internationalorders
+- utter_cancelmyorder
+- utter_orderstatus
+- utter_general
+- utter_orderrelated
+- utter_getreview
+- utter_acknowledge

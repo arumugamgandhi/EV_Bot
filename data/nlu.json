@@ -1,0 +1,4409 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi Assistant"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "agent"
+      },
+      {
+        "intent": "greet",
+        "text": "assistant"
+      },
+      {
+        "intent": "greet",
+        "text": "chatbot"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hello is anybody there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi Mister"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi folks"
+      },
+      {
+        "intent": "greet",
+        "text": "hi pal!"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi!"
+      },
+      {
+        "intent": "greet",
+        "text": "virtual agent"
+      },
+      {
+        "intent": "greet",
+        "text": "virtual bot"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye bot"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Bye!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "Goodbye friend"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you"
+      },
+      {
+        "intent": "goodbye",
+        "text": "See you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye for now"
+      },
+      {
+        "intent": "goodbye",
+        "text": "catch you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodnight"
+      },
+      {
+        "intent": "goodbye",
+        "text": "gotta go"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a good day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "i'm off"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later alligator"
+      },
+      {
+        "intent": "goodbye",
+        "text": "we'll speak soon"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thank you so much"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks bot"
+      },
+      {
+        "intent": "thankyou",
+        "text": "Thanks for that"
+      },
+      {
+        "intent": "thankyou",
+        "text": "amazing, thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cheers"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cheers bro"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cool thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "cool, thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "ok thanks!"
+      },
+      {
+        "intent": "thankyou",
+        "text": "perfect thank you"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks a bunch for everything"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks for the help"
+      },
+      {
+        "intent": "affirm",
+        "text": "absolutely"
+      },
+      {
+        "intent": "affirm",
+        "text": "definitely"
+      },
+      {
+        "intent": "affirm",
+        "text": "exactly"
+      },
+      {
+        "intent": "affirm",
+        "text": "for sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "great"
+      },
+      {
+        "intent": "affirm",
+        "text": "nice"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm",
+        "text": "okay"
+      },
+      {
+        "intent": "affirm",
+        "text": "okey"
+      },
+      {
+        "intent": "affirm",
+        "text": "same"
+      },
+      {
+        "intent": "affirm",
+        "text": "si"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes sure"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes yes yes"
+      },
+      {
+        "intent": "deny",
+        "text": "This is not the one"
+      },
+      {
+        "intent": "deny",
+        "text": "This is not the one I am looking for"
+      },
+      {
+        "intent": "deny",
+        "text": "do you have something else"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "no thank you"
+      },
+      {
+        "intent": "deny",
+        "text": "no thanks"
+      },
+      {
+        "intent": "deny",
+        "text": "no this does not work for me"
+      },
+      {
+        "intent": "deny",
+        "text": "noope"
+      },
+      {
+        "intent": "deny",
+        "text": "not today"
+      },
+      {
+        "intent": "deny",
+        "text": "uh no"
+      },
+      {
+        "intent": "deny",
+        "text": "wrong"
+      },
+      {
+        "intent": "deny",
+        "text": "wrong result"
+      },
+      {
+        "intent": "deny",
+        "text": "wrong thing"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "Ahoy matey how are you?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "Are you ok?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "Do you feel good?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "Do you have a great day?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "Hi Sara! How are you?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "How are You?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "How are things?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "How are you"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "How are you men?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "How are you today?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "How are you?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "How was your day?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "How you doing?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "How's it going"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "How's it hanging?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "How's life treating you friend?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "How've you been?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "Hows it going"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "I'm fine and you"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "Is everything ok?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "What's going on?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "What's new?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "What's up"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "What's up man"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "and you"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "are you alright"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "are you having a good day"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "are you ok"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "are you okay"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "come stai?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "h r u ?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "hello, how are you?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "hi how are you?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "hi how u doing"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "hi sara, how are you?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how ?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are things going"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are things with you?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are u"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are u?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are xou"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you ?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you doing"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you doing this morning"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you doing today my sweet friend"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you doing today?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you doing?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you feeling"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you today"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you'"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are you????"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how are yuo"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how do you do?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how have you been"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is it going"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is your day"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is your day going"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how is your evening"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how r u"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how r u ?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how r u>"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how you doing"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how you doing?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how's it going?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how's life"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how's life been treating you?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "how's your day going"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "hw r u?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "is everything all right"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "is everything okay"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "nah, I'm good - how are you doing?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "okay hi how are you?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "wassup>"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "what about your day"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "what doing"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "what's good"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "what's up"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "what's up?"
+      },
+      {
+        "intent": "how_are_you",
+        "text": "¿Qué pasa?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "By whom were you built?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Can I ask the name of the people who designed you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Do you know who built you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Do you know who made you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "May I ask who invented you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Name the person who built you."
+      },
+      {
+        "intent": "builder_info",
+        "text": "Tell me the name of the individual who created you."
+      },
+      {
+        "intent": "builder_info",
+        "text": "Tell me the name of the person who built you."
+      },
+      {
+        "intent": "builder_info",
+        "text": "Tell me the name of your creator."
+      },
+      {
+        "intent": "builder_info",
+        "text": "Tell me who built you."
+      },
+      {
+        "intent": "builder_info",
+        "text": "What is the name of your builder?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "What person built you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who built you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who created and built you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who created you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who designed you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who developed and created you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who developed you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who fabricated you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who generated you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who is it that built you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who is responsible for making you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who is the builder of you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who is the legal owner of you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who is the name of your builder?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who is the name of your creator?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who is the person responsible for building you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who is the person that invented you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who is the person who built you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who is your creator?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who is your programmer?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who made you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who modeled you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who owns you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who produced you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who put you together?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who thought to make you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who was the one that built you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who was the one who made you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who was the person that built you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who was the person that created you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who was the person that made you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who was the person who made you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who was the person who put you together?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who went through the trouble of setting you up?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who were you built by?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who were you created by?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who were you made by?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who's your boss?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "Who's your builder?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "and who built u?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "can you share your boss with me?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "i want to get to know your owner"
+      },
+      {
+        "intent": "builder_info",
+        "text": "i want to know the company which designed you"
+      },
+      {
+        "intent": "builder_info",
+        "text": "i want to know the company which generated you"
+      },
+      {
+        "intent": "builder_info",
+        "text": "i want to know the company which invented you"
+      },
+      {
+        "intent": "builder_info",
+        "text": "i want to know who invented you"
+      },
+      {
+        "intent": "builder_info",
+        "text": "please tell me the company who created you"
+      },
+      {
+        "intent": "builder_info",
+        "text": "please tell me who created you"
+      },
+      {
+        "intent": "builder_info",
+        "text": "tell me more about you"
+      },
+      {
+        "intent": "builder_info",
+        "text": "tell me more about your creators"
+      },
+      {
+        "intent": "builder_info",
+        "text": "tell me more about your founders"
+      },
+      {
+        "intent": "builder_info",
+        "text": "what is the name of the smart engineer who creted you ?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "where were you made?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "which company brought you into existence?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "which company created you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "which company invented you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who are your author?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who are your parents"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who build yoi"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who built u?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who built you"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who built you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who create you ?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who created you"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who created you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who developed"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who developed you"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who do you work for?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who had the idea to build you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who had the idea to generate you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who had the idea to make you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who invent you"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who is behind all this?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who is your author"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who is your boss"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who is your boss tell me"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who is your boss?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who is your creator"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who is your creator?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who is your daddy"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who is your employer?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who is your father ?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who is your mom"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who is your parent?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who made u"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who made u?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who made you"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who made you?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who your author are?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "who's builder"
+      },
+      {
+        "intent": "builder_info",
+        "text": "why were you made?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "you are made by who?"
+      },
+      {
+        "intent": "builder_info",
+        "text": "you are working for which company?"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "FUCK"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck Off"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck off"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck u"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Fuck you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "God you're a moron"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "I can't believe how dumb you are"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Stupid"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are a fool."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are an idiot."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are dumb."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are shortsighted."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are unintelligent."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You are unknowing."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You brain is dull."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You have no brains."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You have no intelligence."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You have no sense."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You know nothing."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You lack intelligence."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You lack understanding."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You're a dolt."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You're a dunce."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You're an idiot."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "You're foolish."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Your intelligence is laughable."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "Your mindset is naive."
+      },
+      {
+        "intent": "handle_insult",
+        "text": "a baby knows more than you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "are u dump?"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "are you brain dead?"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "asshole"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "bitch"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "bloody dunce"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "deal with my ass, you bitch"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck off"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck rasa"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck u"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck you machine learning bot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fuck you!"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fucking stupid"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "fucking work"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "go fuck yourself"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "how can you be such an idiot?"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "i hate you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "i hate your dumb face"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "idiot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "ok fuck you"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "ok shut up"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "shut up asshole"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "so dumb"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "so fucking dumb"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "what fuck"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are a moron"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are a stupid bot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are an idiot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are dumb"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are fucking stupid"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are fucking stupid guy！"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are idiotic"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are so ignorant"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are stupid"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you are unintelligent"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you asshole"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you son of a bitch"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you're a loser lmao"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you're an idiot"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you're dumb"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you're not smart"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you're so dumb"
+      },
+      {
+        "intent": "handle_insult",
+        "text": "you're the most moronic person I know"
+      },
+      {
+        "intent": "ask_language",
+        "text": "Are you familiar with more than one language?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "Can you communicate in any other languages?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "Can you speak more than one language?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "Do you know any other languages?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "Do you know other languages?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "Do you speak any other languages?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "Do you speak german?"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "Hello do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "Hello do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "Hello do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "Hello do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "Hello do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "Hello do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "Hello do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "Hey bot do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "Hey bot do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "Hey bot do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "Hey bot do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "Hey bot do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "Hey bot do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "Hey bot do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "Hey do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "Hey do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "Hey do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "Hey do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "Hey do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "Hey do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "Hey do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "Hi Assistant do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "Hi Assistant do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "Hi Assistant do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "Hi Assistant do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "Hi Assistant do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "Hi Assistant do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "Hi Assistant do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "Hi bot do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "Hi bot do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 20,
+            "end": 30,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "Hi bot do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "Hi bot do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "Hi bot do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "Hi bot do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "Hi bot do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "Hi do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "Hi do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "Hi do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "Hi do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "Hi do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "Hi do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "Hi do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "text": "How many different languages are you fluent in?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "How many languages are you familiar with?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "How many languages can you speak?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "How many languages do you have knowledge of?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "How many languages do you know?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "In what languages are you fluent enough?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "In which languages are you fluent?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "In which languages can you speak?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "Speak any other languages?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "What are all of the different languages you can speak?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "What are the languages you can speak?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "What do you speak?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "What languages are you fluent in?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "What languages can you communicate in?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "What languages can you converse in?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "What languages can you use?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "What languages do you know how to use?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "What languages do you know?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "What languages do you speak?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "Which languages are you familiar with?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "Which languages do you speak?"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "agent do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "agent do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "agent do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "agent do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "agent do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "agent do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "agent do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "text": "are you bilingual?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "are you multilingual?"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "assistant do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "assistant do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "assistant do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "assistant do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "assistant do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "assistant do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "assistant do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "text": "can you speak in italian?"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "chatbot do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "chatbot do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "chatbot do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "chatbot do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "chatbot do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "chatbot do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "chatbot do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "text": "do you speak any other languages?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "do you speak german?"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "good morning do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "good morning do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 26,
+            "end": 36,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "good morning do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "good morning do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "good morning do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "good morning do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "good morning do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "greetings do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "greetings do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "greetings do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "greetings do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "greetings do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "greetings do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "greetings do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "hello everybody do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "hello everybody do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 29,
+            "end": 39,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "hello everybody do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "hello everybody do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "hello everybody do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "hello everybody do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "hello everybody do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "hello is anybody there do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "hello is anybody there do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 36,
+            "end": 46,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "hello is anybody there do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "hello is anybody there do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "hello is anybody there do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 36,
+            "end": 42,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "hello is anybody there do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 36,
+            "end": 43,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "hello is anybody there do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "hello robot do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "hello robot do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 25,
+            "end": 35,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "hello robot do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "hello robot do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "hello robot do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "hello robot do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "hello robot do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "hi Mister do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "hi Mister do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 33,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "hi Mister do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "hi Mister do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "hi Mister do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "hi Mister do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "hi Mister do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "hi again do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "hi again do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "hi again do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "hi again do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "hi again do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "hi again do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "hi again do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "hi do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "hi do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "hi do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "hi do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "hi do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "hi do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "hi do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "hi folks do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "hi folks do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "hi folks do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "hi folks do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "hi folks do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "hi folks do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "hi folks do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "hi pal! do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "hi pal! do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 31,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "hi pal! do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "hi pal! do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "hi pal! do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "hi pal! do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "hi pal! do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "hi there do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "hi there do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 32,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "hi there do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "hi there do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "hi there do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "hi there do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "hi there do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "hi! do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "hi! do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 17,
+            "end": 27,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "hi! do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "hi! do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "hi! do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "hi! do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "hi! do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "text": "how many languages are you fluent in?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "how many languages do you know?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "tell me some languages you know?"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "virtual agent do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "virtual agent do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 27,
+            "end": 37,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "virtual agent do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "virtual agent do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "virtual agent do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "virtual agent do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "virtual agent do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "entity": "language",
+            "value": "Chinese"
+          }
+        ],
+        "text": "virtual bot do you speak Chinese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "entity": "language",
+            "value": "French"
+          }
+        ],
+        "text": "virtual bot do you speak French"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 25,
+            "end": 35,
+            "entity": "language",
+            "value": "Vietnamese"
+          }
+        ],
+        "text": "virtual bot do you speak Vietnamese"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "entity": "language",
+            "value": "german"
+          }
+        ],
+        "text": "virtual bot do you speak german"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "entity": "language",
+            "value": "italian"
+          }
+        ],
+        "text": "virtual bot do you speak italian"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 25,
+            "end": 31,
+            "entity": "language",
+            "value": "korean"
+          }
+        ],
+        "text": "virtual bot do you speak korean"
+      },
+      {
+        "intent": "ask_language",
+        "entities": [
+          {
+            "start": 25,
+            "end": 32,
+            "entity": "language",
+            "value": "spanish"
+          }
+        ],
+        "text": "virtual bot do you speak spanish"
+      },
+      {
+        "intent": "ask_language",
+        "text": "what else do you know besides English?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "what foreign languages are you fluent in?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "what foreign languages do you know?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "what languages are you comfortable speaking at?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "what languages are you familiar with?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "what languages are you good at speaking?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "what languages do you know?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "what languages you are well versed ?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "what languages you can be comfortable speaking?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "what languages you can handle well?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "what languages you can speak ?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "what languages you know?"
+      },
+      {
+        "intent": "ask_language",
+        "text": "what languages you prefer more speaking at?"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "entity": "contact",
+            "value": "call"
+          }
+        ],
+        "text": "Do you give call support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 12,
+            "end": 26,
+            "entity": "contact",
+            "value": "conversational"
+          }
+        ],
+        "text": "Do you give conversational support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "entity": "contact",
+            "value": "dial in"
+          }
+        ],
+        "text": "Do you give dial in support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "entity": "contact",
+            "value": "mobile"
+          }
+        ],
+        "text": "Do you give mobile support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 12,
+            "end": 17,
+            "entity": "contact",
+            "value": "phone"
+          }
+        ],
+        "text": "Do you give phone support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 12,
+            "end": 21,
+            "entity": "contact",
+            "value": "telephone"
+          }
+        ],
+        "text": "Do you give telephone support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "entity": "contact",
+            "value": "call"
+          }
+        ],
+        "text": "Do you help with call support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "entity": "contact",
+            "value": "conversational"
+          }
+        ],
+        "text": "Do you help with conversational support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "entity": "contact",
+            "value": "dial in"
+          }
+        ],
+        "text": "Do you help with dial in support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "entity": "contact",
+            "value": "mobile"
+          }
+        ],
+        "text": "Do you help with mobile support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "entity": "contact",
+            "value": "phone"
+          }
+        ],
+        "text": "Do you help with phone support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "entity": "contact",
+            "value": "telephone"
+          }
+        ],
+        "text": "Do you help with telephone support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "entity": "contact",
+            "value": "call"
+          }
+        ],
+        "text": "Do you offer call support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 13,
+            "end": 27,
+            "entity": "contact",
+            "value": "conversational"
+          }
+        ],
+        "text": "Do you offer conversational support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 13,
+            "end": 20,
+            "entity": "contact",
+            "value": "dial in"
+          }
+        ],
+        "text": "Do you offer dial in support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 13,
+            "end": 19,
+            "entity": "contact",
+            "value": "mobile"
+          }
+        ],
+        "text": "Do you offer mobile support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 13,
+            "end": 18,
+            "entity": "contact",
+            "value": "phone"
+          }
+        ],
+        "text": "Do you offer phone support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "entity": "contact",
+            "value": "telephone"
+          }
+        ],
+        "text": "Do you offer telephone support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "entity": "contact",
+            "value": "call"
+          }
+        ],
+        "text": "Do you provide call support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 29,
+            "entity": "contact",
+            "value": "conversational"
+          }
+        ],
+        "text": "Do you provide conversational support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "entity": "contact",
+            "value": "dial in"
+          }
+        ],
+        "text": "Do you provide dial in support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "entity": "contact",
+            "value": "mobile"
+          }
+        ],
+        "text": "Do you provide mobile support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "entity": "contact",
+            "value": "phone"
+          }
+        ],
+        "text": "Do you provide phone support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "entity": "contact",
+            "value": "telephone"
+          }
+        ],
+        "text": "Do you provide telephone support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "entity": "contact",
+            "value": "call"
+          }
+        ],
+        "text": "Will you give call support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 14,
+            "end": 28,
+            "entity": "contact",
+            "value": "conversational"
+          }
+        ],
+        "text": "Will you give conversational support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "entity": "contact",
+            "value": "dial in"
+          }
+        ],
+        "text": "Will you give dial in support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "entity": "contact",
+            "value": "mobile"
+          }
+        ],
+        "text": "Will you give mobile support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "entity": "contact",
+            "value": "phone"
+          }
+        ],
+        "text": "Will you give phone support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "entity": "contact",
+            "value": "telephone"
+          }
+        ],
+        "text": "Will you give telephone support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "entity": "contact",
+            "value": "call"
+          }
+        ],
+        "text": "Will you help with call support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 19,
+            "end": 33,
+            "entity": "contact",
+            "value": "conversational"
+          }
+        ],
+        "text": "Will you help with conversational support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "entity": "contact",
+            "value": "dial in"
+          }
+        ],
+        "text": "Will you help with dial in support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "entity": "contact",
+            "value": "mobile"
+          }
+        ],
+        "text": "Will you help with mobile support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "entity": "contact",
+            "value": "phone"
+          }
+        ],
+        "text": "Will you help with phone support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "entity": "contact",
+            "value": "telephone"
+          }
+        ],
+        "text": "Will you help with telephone support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "entity": "contact",
+            "value": "call"
+          }
+        ],
+        "text": "Will you offer call support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 29,
+            "entity": "contact",
+            "value": "conversational"
+          }
+        ],
+        "text": "Will you offer conversational support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 22,
+            "entity": "contact",
+            "value": "dial in"
+          }
+        ],
+        "text": "Will you offer dial in support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "entity": "contact",
+            "value": "mobile"
+          }
+        ],
+        "text": "Will you offer mobile support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "entity": "contact",
+            "value": "phone"
+          }
+        ],
+        "text": "Will you offer phone support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 15,
+            "end": 24,
+            "entity": "contact",
+            "value": "telephone"
+          }
+        ],
+        "text": "Will you offer telephone support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 17,
+            "end": 21,
+            "entity": "contact",
+            "value": "call"
+          }
+        ],
+        "text": "Will you provide call support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 17,
+            "end": 31,
+            "entity": "contact",
+            "value": "conversational"
+          }
+        ],
+        "text": "Will you provide conversational support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 17,
+            "end": 24,
+            "entity": "contact",
+            "value": "dial in"
+          }
+        ],
+        "text": "Will you provide dial in support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "entity": "contact",
+            "value": "mobile"
+          }
+        ],
+        "text": "Will you provide mobile support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 17,
+            "end": 22,
+            "entity": "contact",
+            "value": "phone"
+          }
+        ],
+        "text": "Will you provide phone support"
+      },
+      {
+        "intent": "phone",
+        "entities": [
+          {
+            "start": 17,
+            "end": 26,
+            "entity": "contact",
+            "value": "telephone"
+          }
+        ],
+        "text": "Will you provide telephone support"
+      },
+      {
+        "intent": "hours",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "entity": "time",
+            "value": "duration"
+          }
+        ],
+        "text": "What are your duration of operation?"
+      },
+      {
+        "intent": "hours",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "entity": "time",
+            "value": "hours"
+          }
+        ],
+        "text": "What are your hours of operation?"
+      },
+      {
+        "intent": "hours",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "entity": "time",
+            "value": "time duration"
+          }
+        ],
+        "text": "What are your time duration of operation?"
+      },
+      {
+        "intent": "hours",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "entity": "time",
+            "value": "working hours"
+          }
+        ],
+        "text": "What are your working hours of operation?"
+      },
+      {
+        "intent": "batteries",
+        "text": "Are batteries included with box mods"
+      },
+      {
+        "intent": "batteries",
+        "text": "Are batteries included with starter kits"
+      },
+      {
+        "intent": "batteries",
+        "text": "Will batteries included with box mods"
+      },
+      {
+        "intent": "batteries",
+        "text": "Will batteries included with starter kits"
+      },
+      {
+        "intent": "stock",
+        "text": "Can I be notified when the product is back in stock"
+      },
+      {
+        "intent": "stock",
+        "text": "Notification when re stock the out of stock products"
+      },
+      {
+        "intent": "stock",
+        "text": "Will I be notified when the product is back in stock"
+      },
+      {
+        "intent": "payment",
+        "text": "What payment option availabe"
+      },
+      {
+        "intent": "payment",
+        "text": "mode of payments available"
+      },
+      {
+        "intent": "payment",
+        "text": "possible payment ways"
+      },
+      {
+        "intent": "payment",
+        "text": "purchase payment options"
+      },
+      {
+        "intent": "payment",
+        "text": "transaction modes"
+      },
+      {
+        "intent": "payment",
+        "text": "ways of transaction"
+      },
+      {
+        "intent": "age_identification",
+        "text": "FDA regulations"
+      },
+      {
+        "intent": "age_identification",
+        "text": "What forms of identifications can be used to verify age_identification"
+      },
+      {
+        "intent": "age_identification",
+        "text": "age verification process"
+      },
+      {
+        "intent": "age_identification",
+        "text": "government Id detaails to verify age"
+      },
+      {
+        "intent": "age_identification",
+        "text": "id proof for age verification"
+      },
+      {
+        "intent": "age_identification",
+        "text": "necessary age verification docments"
+      },
+      {
+        "intent": "age_identification",
+        "text": "necessary age verification docs"
+      },
+      {
+        "intent": "Unable to verify age",
+        "text": "Age verification issue"
+      },
+      {
+        "intent": "Unable to verify age",
+        "text": "Age verify issue in checkout"
+      },
+      {
+        "intent": "Unable to verify age",
+        "text": "unable to process order due to age verification"
+      },
+      {
+        "intent": "Unable to verify age",
+        "text": "unable to verify age"
+      },
+      {
+        "intent": "Unable to verify age",
+        "text": "verification problem"
+      },
+      {
+        "intent": "return",
+        "text": "How long it will take to process refunds"
+      },
+      {
+        "intent": "return",
+        "text": "How long it will take to process returns"
+      },
+      {
+        "intent": "return",
+        "text": "delay in return"
+      },
+      {
+        "intent": "return",
+        "text": "duration window for refunds"
+      },
+      {
+        "intent": "return",
+        "text": "refunds"
+      },
+      {
+        "intent": "return",
+        "text": "return my product"
+      },
+      {
+        "intent": "return",
+        "text": "returns"
+      },
+      {
+        "intent": "return",
+        "text": "when can I except my refunds"
+      },
+      {
+        "intent": "return",
+        "text": "when can I except my return"
+      },
+      {
+        "intent": "shipping",
+        "text": "Estimated delivery"
+      },
+      {
+        "intent": "shipping",
+        "text": "Time to wait for shipment"
+      },
+      {
+        "intent": "shipping",
+        "text": "When can I expect shipping of my order"
+      },
+      {
+        "intent": "shipping",
+        "text": "duration of product delivery"
+      },
+      {
+        "intent": "shipping",
+        "text": "how long it will take to ship my order"
+      },
+      {
+        "intent": "shipping",
+        "text": "order delivery"
+      },
+      {
+        "intent": "International_orders",
+        "text": "How will you handle international order"
+      },
+      {
+        "intent": "International_orders",
+        "text": "International order"
+      },
+      {
+        "intent": "International_orders",
+        "text": "can you process international order"
+      },
+      {
+        "intent": "International_orders",
+        "text": "will you deliver order to my country"
+      },
+      {
+        "intent": "International_orders",
+        "text": "will you ship to my country"
+      },
+      {
+        "intent": "cancel_my_order",
+        "text": "can I cancel my order"
+      },
+      {
+        "intent": "cancel_my_order",
+        "text": "cancel my order"
+      },
+      {
+        "intent": "cancel_my_order",
+        "text": "order cancel procedure"
+      },
+      {
+        "intent": "cancel_my_order",
+        "text": "ways to cancel order"
+      },
+      {
+        "intent": "order_status",
+        "text": "What is my order status"
+      },
+      {
+        "intent": "order_status",
+        "text": "current situation of my order"
+      },
+      {
+        "intent": "order_status",
+        "text": "order details"
+      },
+      {
+        "intent": "order_status",
+        "text": "status of my order"
+      },
+      {
+        "intent": "order_status",
+        "text": "track my order"
+      },
+      {
+        "intent": "order_status",
+        "text": "where is my product"
+      },
+      {
+        "intent": "general",
+        "text": "general questions"
+      },
+      {
+        "intent": "order_related",
+        "text": "order related questions"
+      },
+      {
+        "intent": "Value",
+        "text": "5"
+      },
+      {
+        "intent": "Value",
+        "text": "4"
+      },
+      {
+        "intent": "greet",
+        "text": "heeeeeee"
+      },
+      {
+        "intent": "general",
+        "text": "faq"
+      },
+      {
+        "intent": "deny",
+        "text": "why"
+      },
+      {
+        "intent": "affirm",
+        "text": "fine"
+      },
+      {
+        "intent": "greet",
+        "text": "h"
+      },
+      {
+        "intent": "order_status",
+        "text": "check my deliver date"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thk u"
+      },
+      {
+        "intent": "payment",
+        "text": "will you support net banking"
+      },
+      {
+        "intent": "age_identification",
+        "text": "age verification"
+      },
+      {
+        "intent": "age_identification",
+        "text": "age verification details"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
